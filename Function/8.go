@@ -23,7 +23,7 @@ func printReports(intro, body, outro string) {
 
 // don't touch below this line
 
-func main() {
+func main5() {
 	printReports(
 		"Welcome to the Hotel California",
 		"Such a lovely place",
