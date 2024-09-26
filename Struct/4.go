@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type authenticationInfo struct {
 	username string
 	password string
@@ -12,13 +10,13 @@ func (auth authenticationInfo) getBasicAuth() string {
 
 }
 
-func main() {
+// func main() {
 
-	userauth := authenticationInfo{
-		username: "ziad",
-		password: "zizoshata2003",
-	}
+// 	userauth := authenticationInfo{
+// 		username: "ziad",
+// 		password: "zizoshata2003",
+// 	}
 
-	fmt.Println(userauth.getBasicAuth())
+// 	fmt.Println(userauth.getBasicAuth())
 
-}
+// }
